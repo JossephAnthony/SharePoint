@@ -1,0 +1,31 @@
+{
+  "elmType": "div",
+  "style": {
+    "display": "=if([$TargetDate] == '', 'none', '')"
+  },
+  "children": [
+    {
+      "elmType": "p",
+      "attributes": {
+        "class": "ms-fontColor-neutralSecondary sp-card-label sp-card-boldText"
+      },
+      "txtContent": "[!TargetDate.DisplayName]"
+    },
+    {
+      "elmType": "div",
+      "attributes": {
+        "class": "sp-card-content"
+      },
+      "txtContent": {
+        "operator": "+",
+        "operands": [
+          {
+            "operator": "toLocaleDateString",
+            "operands": ["@currentField", 'es-ES']
+          },
+          ""
+        ]
+      }
+    }
+  ]
+}
