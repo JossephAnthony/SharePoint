@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "automate",
+        "hide": "true"
+      },
+      {
+        "key": "integrate",
+        "hide": "true"
+      },
+      {
+        "key": "export",
+        "hide": "false"
+      },
+      {
+        "key": "exportPowerBI",
+        "hide": "true"
+      },
+      {
+        "key": "alertMe",
+        "hide": "true"
+      },
+      {
+        "key": "manageAlert",
+        "hide": "true"
+      },
+      {
+        "key": "new",
+        "text": "Ingresar nuevo requerimiento"
+      },
+      {
+        "key": "edit",
+        "hide": "true"
+      },
+      {
+        "key": "comment",
+        "hide": "true"
+      },
+      {
+        "key": "editInGridView",
+        "sectionType": "Overflow",
+        "position": 3
+      },
+      {
+        "key": "share",
+        "sectionType": "Overflow",
+        "position": 1
+      },
+      {
+        "key": "delete",
+        "sectionType": "Overflow",
+        "position": 4
+      },
+      {
+        "key": "versionHistory",
+        "sectionType": "Overflow",
+        "position": 2
+      }
+    ]
+  }
+}
